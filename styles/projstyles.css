@@ -1,5 +1,5 @@
 .project-gall{
-    min-width:360;
+    /*min-width:360;*/
     height:300px;
     position:relative;
     list-style:none;
@@ -132,6 +132,31 @@ a{
    91.66% { opacity: 0;}
    100% { opacity: 1;}
 }
+
+@media screen and (max-width: 480px) {
+    .project-gall{
+    /*min-width:360;*/
+    height:200px;
+    position:relative;
+    list-style:none;
+    margin:0 auto;
+    padding:0;
+    background: #ccc;
+    border-radius: 7px;
+}
+.project-gall img{
+    position:absolute;
+    left:0;
+    top:0;
+    width:auto;
+    height:200px;
+    background: no-repeat scroll center center / cover;
+}
+}
+
+
+
+
 /*
 @-webkit-keyframes fadeIn {
     100% { opacity: 1; }

@@ -47,6 +47,11 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	.hlite {
+		color: purple;
+		font-weight: 900;
+	}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -1565,10 +1570,10 @@
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #000;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
-		font-weight: 400;
+		font-weight: 500;
 		line-height: 1.75em;
 	}
 

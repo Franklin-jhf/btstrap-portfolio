@@ -2,7 +2,7 @@
   animation: fadein 1.5s ease-out;
   display: flex;
   flex-direction: row;
-  width: 80%;
+  width: 100%;
   height: 80%;
   margin: auto;
   align-self: center;
@@ -48,3 +48,34 @@
   filter: grayscale(0%);
   transform: scale(1.2);
 }
+
+@media screen and (max-width: 480px) {
+  .skills .skills-logo-box .skills-logo {
+    display: block;
+    text-align: center;
+    height: auto;
+    min-width: 50px;
+    width: auto;
+    margin: 10px auto;
+    filter: grayscale(95%);
+    transition: all .5s;
+  }
+
+  .skills .skills-logo-box {
+  margin: 2px auto;
+  /*min-height: 90px;*/
+  height: auto;
+  min-width: 60px;
+  color: #2E2E2E;
+}
+}
+
+
+
+
+
+
+
+
+
+
